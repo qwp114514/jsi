@@ -1,0 +1,6 @@
+id=anjian_esp
+name=暗区ESP 视觉套件
+version=1.0.4
+versionCode=104
+author=富江
+description=Il2CPP 运行时符号解析 ESP。骨骼/方框/雷达/物资/触摸压枪。纯读取内存，Zygisk 内存加载，maps 净化。
