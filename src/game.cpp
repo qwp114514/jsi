@@ -115,9 +115,7 @@ void Game::resolveSchema() {
         }
         if (!s.worldGetter) {
             // 静态区直接是对象引用（无 Instance 字段）
-            FieldInfo* any = g_il2.class_get_field_from_name &&
-                             g_il2.class_get_field_from_name(k, "Instance");
-            (void)any;
+
         }
     }
     LOGI("schema: world=%p", s.worldGetter);

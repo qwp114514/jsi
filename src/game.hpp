@@ -57,6 +57,8 @@ struct TimerInfo {
     bool real    = false; // 是否读到游戏真实倒计时
 };
 
+extern uint64_t g_cam;
+extern Mat4 g_vp;
 class Game {
 public:
     bool init();
@@ -120,5 +122,3 @@ private:
 };
 
 extern Game g_game;
-extern Mat4 g_vp;
-extern uint64_t g_cam;
